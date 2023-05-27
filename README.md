@@ -13,7 +13,7 @@
 npm install gh-pages –save-dev
 ```
 
-<p>- Ele irá instalar os pacotes necessários para preparar o package.json para o deploy.</p>
+> Ele irá instalar os pacotes necessários para preparar o package.json para o deploy.
 
 ## Configurando o package.json
 
@@ -47,8 +47,11 @@ npm install gh-pages –save-dev
 ## Rotas da página
 
 <p>Essa parte foi a que me fez começar a escrever esse artigo. Primeiro vamos instalar a biblioteca do react router, para isso rodamos o seguinte comando no terminal:</p>
-<strong>npm install react-router-dom</strong>
 
+```shell
+npm install react-router-dom
+```
+###
 <p>e vamos organizar as rotas da seguinte maneira: </p>
 
 
@@ -87,11 +90,16 @@ function App() {
 }
 
 ````
-##
+
 
 <p>Agora para usar as rotas criadas, ao invés de usar a tag <a href=><a/>, vamos instalar mais um pacote, chamado react-router-hash-link. Instalamos com o seguinte comando:</p>
-<strong>npm install react-router-hash-link</strong>
+  
+```shell
+  npm install react-router-hash-link
+```
+  
 <p>No meu caso, irei usar as rotas no componente que cabeçalho:</p>
+
 
 ````diff
 
@@ -137,7 +145,7 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
 
 <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/8ec042ad-69c2-4d0c-9549-705ca9ba3f65"/>
 
-<p>O Github vai gerar um link, de direcionamento para o repositório:</p>
+<p>O Github vai gerar um link de direcionamento para o repositório:</p>
 <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/d7c2c128-eb67-4646-a44e-a092eb3ec3f8"/>
 
 <p>ATENÇÃO: relembrando que é necessário declarar o nome do repositório no package.json:</p>
@@ -197,7 +205,6 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
   ```
   
 </div>
-  ##
   
   Agora que os arquivos já estão no repositório, vamos fazer deploy executando o seguinte comando:
   
