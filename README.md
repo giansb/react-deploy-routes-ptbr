@@ -137,16 +137,24 @@ export default function Topo(){
 Caso não tenha o repositório criado, vamos fazer isso agora, para isso siga os passos:
 
 <div style="display: inline">
-  <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/2d1e844f-84c6-4077-96cb-d507eb13af5f"/>
-  <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/7862db0e-4abc-47ae-9e42-e4c817486c10"/>
+  
+  <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/f912ae2e-1b02-441b-a4a1-3cb33ce63052"/>
+  
+ <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/a8e4820d-c32b-4ed9-814e-791311e15f5a"/>
+  
 </div>
+
+##
 
 Agora vamos escolher um nome para o repositório, evitando colocar espaço, se necessário, substituir por '-'. Logo depois é só clicar em "Create repository".
 
-<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/8ec042ad-69c2-4d0c-9549-705ca9ba3f65"/>
+<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/58089cb4-bcb2-4077-b63c-d826ecffe4c5"/>
+
+
 
 <p>O Github vai gerar um link de direcionamento para o repositório:</p>
-<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/d7c2c128-eb67-4646-a44e-a092eb3ec3f8"/>
+<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/06929856-dadf-4bbc-a832-dc5beaaca895"/>
+
 
 <p>ATENÇÃO: relembrando que é necessário declarar o nome do repositório no package.json:</p>
 
@@ -214,9 +222,9 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
   
   Esse comando vai inciar o deploy, criando uma Branch chamada "gh-pages" no repositório. Nesse momento, o github-pages já está usando a branch e o site deve funcionar normalmente, vamos testar:
   
- <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/6e1c57e3-3fc2-4996-99b5-46ef54d3a988"/>
- 
- <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/1cb05ed8-0397-4d68-843b-fbf2ab5fdf11">
+ <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/13ec8fcb-a265-4f3e-bafb-bfb9e94cbb8b"/>
+
+ <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/9888d379-6075-41ea-812e-676b12c41c56">
  
  ##
  A primeira vez que eu tive que fazer deploy com uma página com rotas, eu enfreitei dificuldade na hora de descobrir como usar elas, por mais simples que possa parecer, não havia encontrado algo que explicasse isso, então veio a ideia de escrever esse artigo-tutorial, para se mais alguém tivesse passando pelo mesmo problema.
