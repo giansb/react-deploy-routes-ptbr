@@ -137,6 +137,7 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
 <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/d7c2c128-eb67-4646-a44e-a092eb3ec3f8"/>
 
 <p>ATENÇÃO: relembrando que é necessário declarar o nome do repositório no package.json:</p>
+
  ```diff
 {
   "name": "starter-project",
