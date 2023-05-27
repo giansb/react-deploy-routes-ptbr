@@ -149,20 +149,50 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
 
 ##
 
-<p>Agora vamos voltar para o nosso projeto. Dentro do terminal, vamos iniciar o git com o seguinte comando:</p>
-<strong>git init</strong>
+<div>
+  <p>Agora vamos voltar para o nosso projeto. Dentro do terminal, vamos iniciar o git com o seguinte comando:</p>
+  
+  ```shell
+    git init
+  ```
+  
+</div>
 
-<p>Vamos adicionar todos os arquivos que está dentro da pasta:</p>
-<strong>git add .</strong>
+<div>
+  <p>Vamos adicionar todos os arquivos que está dentro da pasta:</p>
+  
+  ```shell
+  git add .
+  ```
+  
+</div>
 
-<p>Damos um nome para o nosso commit</p>
-<strong>git commit -m "primeiro-commit"</strong>
+<div>
+  <p>Damos um nome para o nosso commit</p>
+  
+  ```shell
+  git commit -m "primeiro-commit
+  ```
+  
+</div>
 
-<p>Nessa parte vamos dizer qual o caminho do repositório do github. Para isso vamos usar o link gerado no próprio:</p>
-<strong>git remote add origin "https://github.com/{usuario}/{repositorio}.git"</strong>
+<div>
+  <p>Nessa parte vamos dizer qual o caminho do repositório do github. Para isso vamos usar o link gerado no próprio:</p>
+  
+  ```shell
+  git remote add origin "https://github.com/{usuario}/{repositorio}.git
+  ```
+  
+</div>
 
-<p>Agora vamos usar o push para mandar todos os nossos arquivos para lá:</p>
-<strong>git push -u origin main</strong>
+<div>
+  <p>Agora vamos usar o push para mandar todos os nossos arquivos para lá:</p>
+  
+  ```shell
+  git push -u origin main
+  ```
+  
+</div>
 
 
 
