@@ -8,7 +8,11 @@
 ## Instalando o gh-pages
 
 <p>Com o seu projeto React aberto, execute o seguinte comando no terminal:</p>
-<strong>npm install gh-pages –save-dev</strong>
+
+```shell
+npm install gh-pages –save-dev
+```
+
 <p>- Ele irá instalar os pacotes necessários para preparar o package.json para o deploy.</p>
 
 ## Configurando o package.json
@@ -193,6 +197,27 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
   ```
   
 </div>
+  ##
+  
+  Agora que os arquivos já estão no repositório, vamos fazer deploy executando o seguinte comando:
+  
+  ```shell
+  npm run deploy
+  ```
+  
+  Esse comando vai inciar o deploy, criando uma Branch chamada "gh-pages" no repositório. Nesse momento, o github-pages já está usando a branch e o site deve funcionar normalmente, vamos testar:
+  
+ <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/6e1c57e3-3fc2-4996-99b5-46ef54d3a988"/>
+ 
+ <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/1cb05ed8-0397-4d68-843b-fbf2ab5fdf11">
+ 
+ ##
+ A primeira vez que eu tive que fazer deploy com uma página com rotas, eu enfreitei dificuldade na hora de descobrir como usar elas, por mais simples que possa parecer, não havia encontrado algo que explicasse isso, então veio a ideia de escrever esse artigo-tutorial, para se mais alguém tivesse passando pelo mesmo problema.
+ 
+ Duas fontes que me ajudaram a resolver boa parte do problema de deploy foi o [artigo](https://www.freecodecamp.org/portuguese/news/como-fazer-o-deploy-de-uma-aplicacao-do-react-com-rotas-no-github-pages/) do Tomer Ben Rachel, e o [artigo](https://github.com/ph-bicalho/gh-pages-no-react) do Pedro Bicalho sobre como fazer deploy. 
+
+
+
 
 
 
