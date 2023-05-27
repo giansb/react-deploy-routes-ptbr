@@ -221,7 +221,9 @@ Agora vamos escolher um nome para o repositório, evitando colocar espaço, se n
  ##
  A primeira vez que eu tive que fazer deploy com uma página com rotas, eu enfreitei dificuldade na hora de descobrir como usar elas, por mais simples que possa parecer, não havia encontrado algo que explicasse isso, então veio a ideia de escrever esse artigo-tutorial, para se mais alguém tivesse passando pelo mesmo problema.
  
- Duas fontes que me ajudaram a resolver boa parte do problema de deploy foi o [artigo](https://www.freecodecamp.org/portuguese/news/como-fazer-o-deploy-de-uma-aplicacao-do-react-com-rotas-no-github-pages/) do Tomer Ben Rachel, e o [artigo](https://github.com/ph-bicalho/gh-pages-no-react) do Pedro Bicalho sobre como fazer deploy. 
+**Duas fontes que me ajudaram a resolver boa parte do problema de deploy foi o [artigo](https://www.freecodecamp.org/portuguese/news/como-fazer-o-deploy-de-uma-aplicacao-do-react-com-rotas-no-github-pages/) do Tomer Ben Rachel, e o [artigo](https://github.com/ph-bicalho/gh-pages-no-react) do Pedro Bicalho sobre como fazer deploy.**
+
+##
 
 
 
