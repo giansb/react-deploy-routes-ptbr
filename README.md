@@ -18,7 +18,7 @@
  ```diff
 {
   "name": "starter-project",
-  "homepage": "https://tomerpacific.github.io/{nome do repositorio}/"
+  "homepage": "https://{nome do usuario}.github.io/{nome do repositorio}/"
   "version": "0.1.0",
   ...
 }
@@ -118,6 +118,54 @@ export default function Topo(){
 ````
 <p>a propriedade smooth permite que ao entrar na pagina, ele usa o scrool suavemente até a seção com o id indicado, não é obrigatória declarar. Assim como o texto “#top”, ele vem como definição para mandar para o topo da página indicada. Para mais comandos a parte, acesse a documentação do HashLink.</p>
 <p>Agora com a nossa página já funcionando, chegou a vez de mandar para o repositório, aqui vai um tutorial bem básico de como fazer isso:</p>
+
+
+## Enviando projeto para um repositório
+
+Caso não tenha o repositório criado, vamos fazer isso agora, para isso siga os passos:
+
+<div style="display: inline">
+  <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/2d1e844f-84c6-4077-96cb-d507eb13af5f"/>
+  <img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/7862db0e-4abc-47ae-9e42-e4c817486c10"/>
+</div>
+
+Agora vamos escolher um nome para o repositório, evitando colocar espaço, se necessário, substituir por '-'. Logo depois é só clicar em "Create repository".
+
+<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/8ec042ad-69c2-4d0c-9549-705ca9ba3f65"/>
+
+<p>O Github vai gerar um link, de direcionamento para o repositório:</p>
+<img src="https://github.com/giansb/react-deploy-routes-ptbr/assets/107221898/d7c2c128-eb67-4646-a44e-a092eb3ec3f8"/>
+
+<p>ATENÇÃO: relembrando que é necessário declarar o nome do repositório no package.json:</p>
+ ```diff
+{
+  "name": "starter-project",
+  "homepage": "https://{nome do usuario}.github.io/{nome do repositorio}/"
+  "version": "0.1.0",
+  ...
+}
+````
+
+##
+
+<p>Agora vamos voltar para o nosso projeto. Dentro do terminal, vamos iniciar o git com o seguinte comando:</p>
+<strong>git init</strong>
+
+<p>Vamos adicionar todos os arquivos que está dentro da pasta:</p>
+<strong>git add .</strong>
+
+<p>Damos um nome para o nosso commit</p>
+<strong>git commit -m "primeiro-commit"</strong>
+
+<p>Nessa parte vamos dizer qual o caminho do repositório do github. Para isso vamos usar o link gerado no próprio:</p>
+<strong>git remote add origin "https://github.com/{usuario}/{repositorio}.git"</strong>
+
+<p>Agora vamos usar o push para mandar todos os nossos arquivos para lá:</p>
+<strong>git push -u origin main</strong>
+
+
+
+
 
 
 
